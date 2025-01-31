@@ -1,0 +1,26 @@
+.sorting-container {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sort-dropdown {
+    padding: 8px;
+    border: 1px solid #c4c4c4; /* Light gray border */
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9; /* Subtle off-white background */
+    color: #333; /* Dark gray text */
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .sort-dropdown:hover {
+    border-color: #007bff; /* Blue border on hover */
+    background-color: #e9f5ff; /* Light blue hover background */
+  }
+  
+  .sort-dropdown:focus {
+    border-color: #0056b3; /* Darker blue border on focus */
+    outline: none;
+  }
+  

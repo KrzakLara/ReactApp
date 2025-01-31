@@ -1,0 +1,23 @@
+.seller-container {
+    margin: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .table-dark {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button {
+    margin: 0 5px;
+  }
+  

@@ -1,0 +1,119 @@
+/* Apply consistent baby pink background globally */
+body, html {
+    background-color: #fadadd !important; /* Baby pink */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  /* Main container styling */
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fadadd; /* Match the global background */
+  }
+  
+  /* Navigation bar styling */
+  .navbar {
+    background-color: #fadadd; /* Match the global background */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .nav-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Style for navigation buttons */
+  .nav-button {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #ffe6e6;
+  }
+  
+  .nav-button:hover {
+    background-color: #ffcccc; /* Hover effect */
+    color: #000;
+  }
+  
+  /* Content area styling */
+  .content-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fadadd; /* Match the global background */
+  }
+  
+  /* Table styling for consistent design */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th,
+  table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #ffe6e6; /* Light pink for table headers */
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #ffe6e6; /* Light pink for alternating rows */
+  }
+  
+  table tr:hover {
+    background-color: #ffcccc; /* Highlight row on hover */
+  }
+  
+  /* Buttons styling */
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #ffc0cb;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffcccc;
+  }
+  
+  /* Add responsiveness for smaller devices */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar .nav-links {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  }
+  

@@ -1,0 +1,62 @@
+.home-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 5px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.sorting-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.sort-dropdown {
+  padding: 5px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: blue;
+  color: white;
+}
+
+.pagination button:disabled {
+  background: lightgray;
+  cursor: not-allowed;
+}

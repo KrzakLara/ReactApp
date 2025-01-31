@@ -1,0 +1,56 @@
+/* CreditCard.css */
+
+/* Style for the container */
+.credit-card-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffe6e6; /* Light pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+  }
+  
+  /* Title styling */
+  .credit-card-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Table styling */
+  .table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th {
+    background-color: #ffc0cb; /* Pink for table header */
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .table td {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fff5f5; /* Light pink for odd rows */
+  }
+  
+  .table-striped tbody tr:hover {
+    background-color: #ffe0e0; /* Slightly darker pink for hover effect */
+  }
+  
+  /* No credit cards text styling */
+  .text-center {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  

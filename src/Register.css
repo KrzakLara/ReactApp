@@ -1,0 +1,134 @@
+/* Main container styling */
+.register-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Avatar group */
+  .avatar-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .avatar-preview {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+  
+  .optional-label {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+  }
+  
+  /* Button styling */
+  .add-avatar-button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .add-avatar-button:hover {
+    background-color: #444;
+  }
+  
+  .register-button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Layout adjustments */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .register-container {
+      margin: 20px auto;
+      padding: 15px;
+    }
+  
+    .form-group input {
+      font-size: 14px;
+    }
+  
+    .add-avatar-button,
+    .register-button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .avatar-preview {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  

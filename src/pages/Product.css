@@ -1,0 +1,104 @@
+/* Product.css */
+
+/* Main container for the Product page */
+.product-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fadadd; /* Baby pink background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Page title styling */
+  h1 {
+    color: #333; /* Dark gray */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Table styling */
+  .table {
+    background-color: #fff; /* White for the table background */
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header row styling */
+  .table th {
+    background-color: #ffe6e6; /* Light pink for table headers */
+    color: #333; /* Dark gray */
+    padding: 10px;
+  }
+  
+  /* Table cell styling */
+  .table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Hover effect for table rows */
+  .table-hover tbody tr:hover {
+    background-color: #ffcccc; /* Highlighted pink for hover */
+  }
+  
+  /* Alternating row colors */
+  .table tr:nth-child(even) {
+    background-color: #ffe6e6; /* Light pink for alternating rows */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #ffc0cb; /* Light pink for buttons */
+    color: #333; /* Dark gray */
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffcccc; /* Hover effect for buttons */
+  }
+  
+  button:disabled {
+    background-color: #f8d7da; /* Light red for disabled buttons */
+    cursor: not-allowed;
+  }
+  
+  /* Input styling */
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ffc0cb; /* Light pink border */
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Select dropdown styling */
+  .form-select {
+    border: 1px solid #ffc0cb; /* Light pink border */
+    border-radius: 5px;
+  }
+  
+  /* Active pagination styling */
+  .active {
+    font-weight: bold;
+    border: 2px solid #ffc0cb; /* Light pink border for active */
+  }
+  
+  /* Flex gap for spacing */
+  .d-flex {
+    gap: 10px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .product-container {
+      padding: 10px;
+    }
+  }
+  

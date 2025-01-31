@@ -1,0 +1,107 @@
+/* Category.css */
+
+/* Main container styling */
+.category-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fadadd; /* Baby pink */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  h1 {
+    color: #333;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Table styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* White background for the table */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #ffe6e6; /* Light pink for table headers */
+    color: #333;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #ffe6e6; /* Alternating light pink rows */
+  }
+  
+  .table tr:hover {
+    background-color: #ffcccc; /* Highlight row on hover */
+  }
+  
+  /* Buttons styling */
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #ffc0cb; /* Light pink buttons */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffcccc; /* Hover effect for buttons */
+  }
+  
+  button:disabled {
+    background-color: #f8d7da; /* Disabled button styling */
+    cursor: not-allowed;
+  }
+  
+  /* Input styling */
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ffc0cb; /* Light pink border for input */
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Dropdown and select styling */
+  .form-select {
+    border: 1px solid #ffc0cb; /* Light pink border for dropdowns */
+    border-radius: 5px;
+  }
+  
+  /* Active pagination styling */
+  .active {
+    font-weight: bold;
+    border: 2px solid #ffc0cb; /* Light pink border for active page */
+    border-radius: 5px;
+  }
+  
+  /* Flexbox utility styling */
+  .d-flex {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .category-container {
+      padding: 10px;
+    }
+  
+    .d-flex {
+      flex-direction: column;
+    }
+  }
+  

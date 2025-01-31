@@ -1,0 +1,50 @@
+.bill-management {
+    padding: 20px;
+  }
+  
+  .add-bill {
+    margin-bottom: 20px;
+  }
+  
+  .add-bill h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-bill select,
+  .add-bill input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .add-bill button {
+    padding: 5px 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table button {
+    margin-right: 5px;
+  }
+  
